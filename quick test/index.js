@@ -71,20 +71,24 @@ const laporanCuti = (mergeDataList) => {
 
         //HITUNG JUMLAH CUTI TERPAKAI
         let jumlahCuti = 0
+        let jumlahCutiTahunIni = 0
         for (let j = 0; j < mergeDataList[i].listCuti.length; j++) {
             jumlahCuti += 1
+            if(new Date(mergeDataList[i].listCuti[j].tanggal_cuti).getFullYear() == new Date().getFullYear()){
+                jumlahCutiTahunIni += 1
+            }
         }
 
         //HITUNG SISA CUTI
-        let sisaCuti = 14 //misal di inisialisasikan 2 minggu
-        sisaCuti = (sisaCuti - jumlahCuti) > 0 ? (sisaCuti - jumlahCuti) : 0
+        let sisaCutiTahunan = 14 //misal di inisialisasikan 2 minggu
+        sisaCutiTahunan = (sisaCutiTahunan - jumlahCutiTahunIni) > 0 ? (sisaCutiTahunan - jumlahCutiTahunIni) : 0
 
         result.push({
             nama: mergeDataList[i].nama,
             umur: umur,
             lama_bekerja: lama_bekerja,
             cuti_terpakai: jumlahCuti,
-            sisah_cuti: sisaCuti
+            sisah_cuti: sisaCutiTahunan
         })
 
     }
