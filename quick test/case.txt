@@ -1,0 +1,18 @@
+1. susun json seperti di bawah ini
+  
+[
+  {
+    "nama": "",
+    "umur": "0 tahun",
+    "lama_bekerja": "0 bulan | tahun",
+    "cuti_terpakai": 0,
+    "sisah_cuti": 0
+  }
+]
+
+2. json di atas untuk laporan cuti tahun ini
+3. penilaian
+  - logic (40)
+  - kejelasan penulisan function dan variable (30)
+  - kemudahan coding untuk di baca (20)
+  - hasil akhir (10)

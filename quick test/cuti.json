@@ -1,0 +1,74 @@
+[
+  {
+    "id": 202105,
+    "staff_id": 3,
+    "tanggal_cuti": "2021-04-20T00:04:32.234Z",
+    "alasan": "istri melahirkan"
+  },
+  {
+    "id": 202104,
+    "staff_id": 3,
+    "tanggal_cuti": "2021-04-19T00:03:32.234Z",
+    "alasan": "istri melahirkan"
+  },
+  {
+    "id": 202103,
+    "staff_id": 3,
+    "tanggal_cuti": "2021-04-18T01:03:32.234Z",
+    "alasan": "istri melahirkan"
+  },
+  {
+    "id": 202102,
+    "staff_id": 2,
+    "tanggal_cuti": "2021-04-02T03:03:32.234Z",
+    "alasan": "test cpns"
+  },
+  {
+    "id": 202101,
+    "staff_id": 3,
+    "tanggal_cuti": "2021-02-23T10:31:32.234Z",
+    "alasan": "keperluan keluarga"
+  },
+  {
+    "id": 202007,
+    "staff_id": 2,
+    "tanggal_cuti": "2020-09-11T01:04:32.234Z",
+    "alasan": "liburan"
+  },
+  {
+    "id": 202006,
+    "staff_id": 2,
+    "tanggal_cuti": "2020-09-10T00:04:32.234Z",
+    "alasan": "liburan"
+  },
+  {
+    "id": 202005,
+    "staff_id": 2,
+    "tanggal_cuti": "2020-09-09T02:04:32.234Z",
+    "alasan": "liburan"
+  },
+  {
+    "id": 202004,
+    "staff_id": 3,
+    "tanggal_cuti": "2020-09-02T00:04:32.234Z",
+    "alasan": "vaksin covid"
+  },
+  {
+    "id": 202003,
+    "staff_id": 2,
+    "tanggal_cuti": "2020-03-04T01:04:32.234Z",
+    "alasan": "sakit tanpa surat dokter"
+  },
+  {
+    "id": 202002,
+    "staff_id": 3,
+    "tanggal_cuti": "2020-03-24T00:04:32.234Z",
+    "alasan": "cuti menikah"
+  },
+  {
+    "id": 202001,
+    "staff_id": 3,
+    "tanggal_cuti": "2020-03-23T00:25:32.234Z",
+    "alasan": "cuti menikah"
+  }
+]

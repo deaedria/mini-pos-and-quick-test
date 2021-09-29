@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nama": "dinar",
+    "tanggal_lahir": "1992-06-04T08:21:24.343Z",
+    "mulai_bekerja": "2021-05-01T04:20:43.923Z"
+  },
+  {
+    "id": 2,
+    "nama": "adi",
+    "tanggal_lahir": "1993-08-26T04:02:46.794Z",
+    "mulai_bekerja": "2019-03-01T02:04:46.794Z"
+  },
+  {
+    "id": 3,
+    "nama": "budi",
+    "tanggal_lahir": "1989-07-30T10:31:32.234Z",
+    "mulai_bekerja": "2013-02-01T05:43:23.453Z"
+  }
+]
